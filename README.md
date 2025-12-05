@@ -3,7 +3,9 @@ This is a simple demonstration of SAS skills
 - Cleaning and transforming datasets
 - Merging clinical datasets
 - Generating summary statistics
-- Creating basic TLF outputs 
+- Creating basic TLF outputs
+
+  
 Intention of the files: 
 01_import.sas  
 Reads the raw CSV datasets into SAS.
@@ -15,15 +17,8 @@ Runs summary statistics (PROC MEANS, PROC FREQ).
 Creates a simple treatment vs response table.
 
 The data is simulated and for demonstration only.sas-mini-example/
-│
-├── data/
-│   ├── demographics.csv
-│   ├── labs.csv
-│
-├── code/
-│   ├── 01_import.sas
-│   ├── 02_cleaning.sas
-│   ├── 03_analysis.sas
-│   └── 04_tlf.sas
-│
-└── README.md
+
+├── data/ demographics.csv── labs.csv
+
+├── code/ 01_import.sas── 02_cleaning.sas── 03_analysis.sas── 04_tlf.sas
+
